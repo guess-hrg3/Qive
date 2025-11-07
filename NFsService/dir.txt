@@ -1,0 +1,14 @@
+C:\Users\tifany.porto\Documents\Qive\NFSService
+│
+├── service.py         # Código principal do serviço
+├── fetch_nfse.py      # Código de lógica de busca e processamento
+├── config.json        # Arquivo de configuração (CNPJs, API, caminhos, etc.)
+├── logs               # Pasta para logs detalhados
+│   ├── service.log    # Log do serviço
+│   └── nfse.log       # Log do script
+├── responses          # Pasta para armazenar respostas da API (JSON/XML)
+│   ├── api_response.json
+│   └── xmls           # XMLs organizados por categoria
+│       ├── hering
+│       └── guess
+└── README.md   

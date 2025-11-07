@@ -1,0 +1,11 @@
+baixar_nfes_qive/
+├── .env                    # Variáveis sensíveis (token, CNPJs)
+├── main.py                 # Script principal
+├── requirements.txt        # Dependências
+├── logs/
+│   └── execucao.log        # Logs de execução
+├── nfes/
+│   ├── grupo_a/
+│   └── grupo_b/
+└── utils/
+    └── logger.py           # Módulo de logging reutilizável
